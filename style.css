@@ -1,0 +1,75 @@
+body{
+    color: white;
+    background-color: black;
+}
+.cont,.cont2{
+    margin: 50px auto;
+    background-color: rgb(37, 37, 37);
+    width: 60vh;
+    height: 45vh;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 30px;
+    
+}
+.cont .c1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.c1 button{
+    background-color: rgb(92, 91, 91);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 20px 0;
+}
+.c1 button:hover{ 
+    background-color:rgb(255, 81, 0) ;
+    cursor: pointer;
+}
+.submit{
+    background-color: rgb(255, 81, 0);
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    height: 35px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.cont2{
+    display: none;
+}
+.cont2 h1,
+.cont2 .head{
+    text-align: center;
+}
+.cont2 .selection{
+    color: rgb(255, 81, 0);
+    text-align: center;
+    background-color:rgb(75, 75, 75) ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
+    margin: auto;
+    margin-top: 20px;
+}
